@@ -1,11 +1,19 @@
 
 import * as React from "react";
 
-export default function AddContent() {
-    return (
-      <img
-        src="https://i.imgur.com/MK3eW3Am.jpg"
-        alt="Katherine Johnson"
-      />
+export default function AddContent({contentType, placement}) {
+        const media = useState([
+            {contentType: "image", 
+            placement: [0, 1]
+
+        },
+        ]);
+    
+        return (
+        <div>
+            
+            <AddImage />
+        </div>
+
     )
   }
