@@ -1,2 +1,3 @@
 # Adi Gotham gitignore files:
 .idea/
+node_modules
