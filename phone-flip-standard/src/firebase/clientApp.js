@@ -1,6 +1,7 @@
 import firebase from "firebase/app";
 import "firebase/auth";
 import "firebase/firestore";
+import { getApps, initializeApp } from "firebase/app";
 
 const clientCredentials = {
     apiKey: process.env.FIREBASE_API_KEY,
@@ -11,9 +12,10 @@ const clientCredentials = {
     appId: process.env.FIREBASE_APP_ID
 }
 
-if (!firebase.apps.length) {
-    const app = firebase.intializeApp(clientCredentials);
-} 
+if (getApps().length < 1) {
+    initializeApp(firebaseConfig);
+    // Initialize other firebase products here
+  }
 
 export const db = getFirestore(app);
 export default firebase;
