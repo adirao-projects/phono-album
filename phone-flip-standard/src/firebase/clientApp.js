@@ -13,7 +13,7 @@ const clientCredentials = {
 }
 
 if (getApps().length < 1) {
-    initializeApp(firebaseConfig);
+    initializeApp(clientCredentials);
     // Initialize other firebase products here
   }
 
