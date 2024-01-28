@@ -14,5 +14,8 @@
 }
 
 .audio-media-card {
-    color: #450F0F;
+    color: #254fef;
+    background-color: #14b8fb;
+    width: 100%;
+    border-radius: 2em;
 }
