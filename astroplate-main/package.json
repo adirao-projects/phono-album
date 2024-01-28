@@ -27,6 +27,7 @@
     "github-slugger": "^2.0.0",
     "gray-matter": "^4.0.3",
     "marked": "^11.2.0",
+    "next.js": "^1.0.3",
     "prettier-plugin-astro": "^0.13.0",
     "prettier-plugin-tailwindcss": "^0.5.11",
     "prop-types": "^15.8.1",
