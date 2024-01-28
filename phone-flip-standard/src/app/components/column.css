@@ -1,0 +1,16 @@
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    border-right: 1px solid #450f0f38;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.add-content-button {
+    font-weight: 500;
+}
