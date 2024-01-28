@@ -1,6 +1,19 @@
-/* .page {
-    
-} */
+.page {
+    margin-top: 20px;
+}
+
+.header {
+    color: #450F0F;
+    margin-left: 40px;
+    font-size: 35px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    height: 50px;
+    margin-right: 15px;
+}
 
 .column-container {
     display: flex;

@@ -14,6 +14,10 @@ export default function Page() {
 
   return (
     <main className="page">
+      <div className="header">
+        <img className="logo" src="album.png"/>
+        PhonoAlbum
+      </div>
       <div className="column-container">
         <Column></Column>
         <Column></Column>
