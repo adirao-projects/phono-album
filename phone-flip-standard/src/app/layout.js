@@ -21,6 +21,7 @@ export default function RootLayout({ children }) {
 import './globals.css'
 import { AuthContextProvider } from '@/context/AuthContext'
 import { ClerkProvider } from '@clerk/nextjs'
+import { neobrutalism } from '@clerk/themes';
 
 export default function RootLayout({ children }) {
   return (
