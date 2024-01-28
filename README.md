@@ -11,5 +11,5 @@ Web pages:
 - [ ] Album Dashboard
   - [ ] View Album
   - [ ] Edit Album
-  - [ ] Upload Media
+  - [ ] Upload Media (Modal Box)
   - [ ] Share Album (generate QR code / link)
