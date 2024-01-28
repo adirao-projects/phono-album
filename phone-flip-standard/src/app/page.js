@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Column from "./column";
+import Column from "./components/column";
 
 export default function Page() {
 
