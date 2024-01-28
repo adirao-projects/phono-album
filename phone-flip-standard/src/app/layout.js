@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
 }
 */
 'use client'
-import './home/homepage.css'
+import './globals.css'
 import { AuthContextProvider } from '@/context/AuthContext'
 
 export default function RootLayout({ children }) {
