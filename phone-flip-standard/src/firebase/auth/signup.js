@@ -1,12 +1,12 @@
-import firebase_app from "../clientApp";
+import firebase from "../clientApp";
 import addData from "../firestore/addData";
 
 import { collection, getDocs } from "firebase/firestore";
-import {db} from '../firebase';
+import {db} from '../clientApp';
 
 import { createUserWithEmailAndPassword, getAuth } from "firebase/auth";
 
-const auth = getAuth(firebase_app);
+const auth = getAuth(firebase);
 
 
 export default async function signUp(email, password) {

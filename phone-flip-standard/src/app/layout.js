@@ -20,6 +20,7 @@ export default function RootLayout({ children }) {
 'use client'
 import './globals.css'
 import { AuthContextProvider } from '@/context/AuthContext'
+import { ClerkProvider } from '@clerk/nextjs'
 
 export default function RootLayout({ children }) {
   return (
@@ -30,9 +31,11 @@ export default function RootLayout({ children }) {
       */}
       <head />
       <body>
-        <AuthContextProvider>
+        <ClerkProvider>
+        {/*<AuthContextProvider>*/}
           {children}
-        </AuthContextProvider>
+        {/*</AuthContextProvider>*/}
+        </ClerkProvider>
       </body>
     </html>
   )
