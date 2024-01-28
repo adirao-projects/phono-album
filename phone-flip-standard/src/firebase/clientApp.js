@@ -12,7 +12,8 @@ const clientCredentials = {
 }
 
 if (!firebase.apps.length) {
-    firebase.intializeApp(clientCredentials);
+    const app = firebase.intializeApp(clientCredentials);
 } 
 
+export const db = getFirestore(app);
 export default firebase;
