@@ -11,6 +11,6 @@ export default async function signIn(email, password) {
     } catch (e) {
         error = e;
     }
-
+    
     return { result, error };
 }
