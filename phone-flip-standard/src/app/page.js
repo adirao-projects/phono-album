@@ -1,9 +1,8 @@
 "use client"
 import Image from "next/image";
-import { getAlbums } from "../firebase/firestore/getAlbums";
+import { getAlbums } from "@/firebase/firestore/getAlbums";
 import { useEffect } from "react";
 import Link from 'next/link';
-import Column from "./components/column";
 import "./page.css";
 
 export default function Page() {
