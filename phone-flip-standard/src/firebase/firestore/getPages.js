@@ -7,12 +7,14 @@ export default async function getPages(album_id) {
     try {
         const album_data = await getDoc(docRef);
     } catch (e) {
+        let error;
         error = e;
     }
 
     const pages = album_data.pages
 
     const page_data = {};
+    let i;
     for (i=0; i<pages.length; i++) {
         page_data[i] = getData('pages', pages[i]);
     }
