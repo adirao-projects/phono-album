@@ -1,0 +1,18 @@
+.media-card {
+    border-radius: 7px;
+    padding: 7px;
+    margin: 5px;
+}
+
+.image-media-card {
+    border-radius: 7px;
+    border: 2px solid #450F0F;
+}
+
+.text-media-card {
+    color: #450F0F;
+}
+
+.audio-media-card {
+    color: #450F0F;
+}

@@ -4,17 +4,18 @@ import Head from "next/head";
 import Image from "next/image";
 
 import { useState } from "react";
+import "./mediaCard.css";
 
 export default function MediaCard({type, src, text}) {
 
-    return <div>
+    return <div className="media-card">
         {
             type === "image" ?  (
-                <img src={src}/>
+                <img className="image-media-card" src={src}/>
             ) : type === "text" ? (
-                <p>{text}</p>
+                <p className="text-media-card">{text}</p>
             ) : type === "audio" ? (
-                <audio controls src={src}>
+                <audio className="audio-media-card" controls src={src}>
                     <source 
                         src={src}
                         type="audio/mp3"
