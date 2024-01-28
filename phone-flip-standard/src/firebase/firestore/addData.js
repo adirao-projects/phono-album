@@ -1,8 +1,8 @@
-import firebase_app from "../clientApp";
+import firebase from "../clientApp";
 import { getFirestore, doc, setDoc, collection, addDoc } from "firebase/firestore";
 
 
-const db = getFirestore(firebase_app)
+const db = getFirestore(firebase)
 
 
 export default async function addData(collection_name, id, data) {

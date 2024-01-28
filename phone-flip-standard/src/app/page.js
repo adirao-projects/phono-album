@@ -3,6 +3,7 @@ import Image from "next/image";
 import { getAlbums } from "../firebase/firestore/getAlbums";
 import { useEffect } from "react";
 import Link from 'next/link';
+import { UserButton } from "@clerk/nextjs";
 
 export default function Home() {
   useEffect(() => {
