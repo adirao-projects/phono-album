@@ -13,6 +13,8 @@ export async function getAlbums() {
         const user_data = await getData('users', user.uid);
         const album_ids = user_data.result.data().albums;
 
+        console.log(album_ids);
+
         const albums = {};
         for (let i=0; i<album_ids.length; i++) {
             albums[album_ids[i]] = getData('albums', album_ids[i]).data;

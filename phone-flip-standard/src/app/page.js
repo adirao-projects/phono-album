@@ -14,17 +14,19 @@ export default function Page() {
 
   return (
     <main className="page">
-      <div className="h-screen">
-          <UserButton afterSignOutUrl="/"/>
-      </div>
       <div className="header">
+        <div className="signed-in-user" >
+          <UserButton afterSignOutUrl="/"/>
+        </div>
         <img className="logo" src="album.png"/>
         PhonoAlbum
+
       </div>
       <div className="column-container">
-        <Column></Column>
-        <Column></Column>
-        <Column></Column>
+      <Column id='0'>
+            </Column>
+        <Column id='1'></Column>
+        <Column id='2'></Column>
       </div>
-    </main>
+      </main>
 )};
